@@ -117,11 +117,19 @@ This resource supports:
 >
 > To open the event in a current version of Outlook on the web, convert the URL to one of the following formats, and use that URL to open the event:
 >
+> **Normal Calendars**
 > * For work or school accounts:
 > `https://outlook.office365.com/calendar/item/{event-id}`
 >
 > * For Microsoft accounts:
 >  `https://outlook.live.com/calendar/item/{event-id}`
+>
+> **Group Calendars**
+> * For work or school accounts:
+> `https://outlook.office365.com/calendar/item/group/{tenant domain}/{groupName}/{event-id}`
+>
+> * For Microsoft accounts:
+>  `https://outlook.live.com/calendar/item/group/{tenant domain}/{groupName}/{event-id}`
 
 ## Relationships
 | Relationship | Type |Description|
